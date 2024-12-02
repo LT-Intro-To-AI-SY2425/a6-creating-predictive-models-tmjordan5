@@ -24,7 +24,7 @@ print(f"linear equation: y={coef}x+{intercept}")
 print(f"r^2: {r_squared}")
 # Predict the the blood pressure of someone who is 43 years old.
 # Print out the prediction
-x_predict=43
+x_predict=42
 prediction=model.predict([[x_predict]])
 print(f"{x_predict} prediction: {prediction}")
 # Create the model in matplotlib and include the line of best 
